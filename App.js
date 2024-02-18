@@ -8,22 +8,13 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import ComponentA from './src/Questions/PropsDrilling/ComponentA';
-import DefaultPropsComponentA from './src/Questions/DefaultProps/DefaultPropsComponentA';
-
+import React_native_snackbar from './src/Questions/React_Native_Snackbar/React_native_snackbar';
 
 const App=()=>{
   
   return (
     <SafeAreaView>
-      <View>
-        <Text>Questions 1 </Text>
-        <ComponentA/>
-      </View>
-      <View>
-        <Text>Questions 2 </Text>
-        <DefaultPropsComponentA/>
-      </View>
+      <React_native_snackbar/>
     </SafeAreaView>
   );
 }
